@@ -8,6 +8,7 @@ const Head: FC = () => {
     <>
       <DefaultSeo {...config} />
       <NextHead>
+        <meta name="google-site-verification" content="Ytgs3S2_9TvLIaoEYrnc4TEXb36YtYtFZtexy7JECVc" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Dexi shop là nơi bán tất cả các sản phẩm local brand VIỆT NAM với thương hiệu DEXI."/>
         <link rel="manifest" href="/site.webmanifest" key="site-manifest" />
