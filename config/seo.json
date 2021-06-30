@@ -1,10 +1,10 @@
 {
-  "title": "ACME Storefront | Powered by Next.js Commerce",
-  "titleTemplate": "%s - ACME Storefront",
+  "title": "DEXI Storefront | Powered by Nha nguyen",
+  "titleTemplate": "%s - DEXI Storefront",
   "description": "Next.js Commerce - https://www.nextjs.org/commerce",
   "openGraph": {
-    "title": "ACME Storefront | Powered by Next.js Commerce",
-    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+    "title": "DEXI Storefront | Powered by Nha nguyen",
+    "description": "DEXI Storefront | Powered by Nha nguyen",
     "type": "website",
     "locale": "en_IE",
     "url": "https://nextjs.org/commerce",
