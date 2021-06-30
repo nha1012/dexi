@@ -18,9 +18,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Head>
-        <meta name="google-site-verification" content="Ytgs3S2_9TvLIaoEYrnc4TEXb36YtYtFZtexy7JECVc"/>
-      </Head>
+      <Head />
       <ManagedUIContext>
         <Layout pageProps={pageProps}>
           <Component {...pageProps} />
