@@ -1,26 +1,21 @@
 {
   "title": "DEXI Storefront | Powered by Nha nguyen",
   "titleTemplate": "%s - DEXI Storefront",
-  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
+  "description": "Dexi Storefront - https://dexi.vercel.app",
   "openGraph": {
     "title": "DEXI Storefront | Powered by Nha nguyen",
     "description": "DEXI Storefront | Powered by Nha nguyen",
     "type": "website",
-    "locale": "en_IE",
-    "url": "https://nextjs.org/commerce",
-    "site_name": "Next.js Commerce",
+    "locale": "vi",
+    "url": "https://dexi.vercel.app",
+    "site_name": "DEXI",
     "images": [
       {
         "url": "/card.png",
         "width": 800,
         "height": 600,
-        "alt": "Next.js Commerce"
+        "alt": "DEXI"
       }
     ]
-  },
-  "twitter": {
-    "handle": "@nextjs",
-    "site": "@nextjs",
-    "cardType": "summary_large_image"
   }
 }
