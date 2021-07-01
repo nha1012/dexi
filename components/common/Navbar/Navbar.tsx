@@ -4,7 +4,7 @@ import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
 import { Logo, Container } from '@components/ui'
 import { Searchbar, UserNav } from '@components/common'
-
+import Image from 'next/image'
 interface Link {
   href: string
   label: string
@@ -14,6 +14,7 @@ interface NavbarProps {
 }
 
 const Navbar: FC<NavbarProps> = ({ links }) => (
+  <div>
   <NavbarRoot>
     <Container>
       <div className={s.nav}>
@@ -48,6 +49,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
       </div>
     </Container>
   </NavbarRoot>
+</div>
 )
 
 export default Navbar

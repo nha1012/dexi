@@ -2,3 +2,10 @@
   @apply h-full bg-primary mx-auto transition-colors duration-150;
   max-width: 2460px;
 }
+.background{
+  background-image: url('/backgr.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+}

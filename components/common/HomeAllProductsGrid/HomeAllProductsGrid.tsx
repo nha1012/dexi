@@ -5,7 +5,7 @@ import { Grid } from '@components/ui'
 import { ProductCard } from '@components/product'
 import s from './HomeAllProductsGrid.module.css'
 import { getCategoryPath, getDesignerPath } from '@lib/search'
-
+import Image from 'next/image'
 interface Props {
   categories?: any
   brands?: any
@@ -18,7 +18,11 @@ const HomeAllProductsGrid: FC<Props> = ({
   products = [],
 }) => {
   return (
+    <div>
+
     <div className={s.root}>
+    <Image src="/backgr.jpg" alt="DEXI Store" layout="fill"/>
+
       <div className={s.asideWrapper}>
         <div className={s.aside}>
           <ul className="mb-10">
@@ -67,6 +71,8 @@ const HomeAllProductsGrid: FC<Props> = ({
         </Grid>
       </div>
     </div>
+    </div>
+
   )
 }
 

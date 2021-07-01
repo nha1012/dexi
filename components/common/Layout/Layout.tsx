@@ -13,10 +13,9 @@ import { useAcceptCookies } from '@lib/hooks/useAcceptCookies'
 import { Sidebar, Button, Modal, LoadingDots } from '@components/ui'
 import PaymentMethodView from '@components/checkout/PaymentMethodView'
 import CheckoutSidebarView from '@components/checkout/CheckoutSidebarView'
-
+import Image from 'next/image'
 import LoginView from '@components/auth/LoginView'
 import s from './Layout.module.css'
-
 const Loading = () => (
   <div className="w-80 h-80 flex items-center text-center justify-center p-3">
     <LoadingDots />
@@ -105,7 +104,9 @@ const Layout: FC<Props> = ({
     <CommerceProvider locale={locale}>
       <div className={cn(s.root)}>
         <Navbar links={navBarlinks} />
+        <div className={cn(s.background)}></div>
         <main className="fit">{children}</main>
+
         <Footer pages={pageProps.pages} />
         <ModalUI />
         <SidebarUI />
